@@ -7,6 +7,8 @@
 
 代码源说明：本项目一共有三部分代码
 Partial code for Raspberry Pi：为树莓派端的部分代码，打开文件夹，执行python newproject.py即可运行代码，其他ros路径规划等代码源相关库太多不方便上传，大家可以直接参考各大开源码进行自行配置；
+
 STM32 end complete code (using UCOSIII)：此部分代码为安保室对机器人监控与接收端，使用了UCOSIII实时操作系统，直接编译烧入即可使用，需注意相关引脚的正确性；
+
 WeChat Mini Program Complete Code Rpi5：此部分为微信小程序完整代码，与onenet进行数据交互，需要注意api，key等需要依据自己的信息进行适配。
 
