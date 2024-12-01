@@ -1,0 +1,63 @@
+<view class="userinfo" style="border: none; display: flex; flex-direction: row; justify-content: space-between;">
+  <view class="temp" style="display: flex; flex-direction: column; align-items: center;" bindtap="viewTempData">
+    <image class="img" src="../images/temp.png"></image>
+    <text>温度:{{temp}}℃</text>
+  </view>
+  <view class="humi" style="display: flex; flex-direction: column; align-items: center;" bindtap="viewHumiData">
+    <image class="img" src="../images/humi.png"></image>
+    <text>湿度:{{humi}}%</text>
+  </view>
+  <view class="atmos" style="display: flex; flex-direction: column; align-items: center;" bindtap="viewAtmosData">
+    <image class="img" src="../images/astom.png"></image>
+    <text>大气压:{{atmos}}pa</text>
+  </view>
+</view>
+<view class="space"></view>
+
+<view class="space"></view>
+<view class="userinfo" style="border: none; display: flex; flex-direction: row; justify-content: space-between;">
+  <view class="light" style="display: flex; flex-direction: column; align-items: center;"bindtap="viewLightData">
+    <image class="img" src="../images/lightphoto.png"></image>
+    <text>光强:{{light}}lux</text>
+  </view>
+  <view class="waterhight" style="display: flex; flex-direction: column; align-items: center;" bindtap="viewwaterhightData">
+    <image class="img" src="../images/海拔.png"></image>
+    <text>海拔:{{waterhight}}m</text>
+  </view>
+  <view class="watertemp" style="display: flex; flex-direction: column; align-items: center;"bindtap="viewwatertempData">
+    <image class="img" src="../images/co2.png"></image>
+    <text>CO2浓度:{{watertemp}}</text>
+  </view>
+</view>
+<view class="space"></view>
+
+<view class="userinfo" style="border: none; display: flex; flex-direction: row; justify-content: space-between;">
+  <view class="ph" style="display: flex; flex-direction: column; align-items: center;"bindtap="viewphData">
+    <image class="img" src="../images/tvoc-copy.png"></image>
+    <text wx:if="{{ ph < 500 }}">TVOC: 正常</text>
+  <text wx:else>TVOC: 异常</text>
+  </view>
+  <view class="tds" style="display: flex; flex-direction: column; align-items: center;"bindtap="viewtdsData">
+    <image class="img" src="../images/18火灾自动报警.png"></image>
+    <text wx:if="{{ tds==0 }}">火灾检测:安全</text>
+    <text wx:else>火灾检测:异常</text>
+  </view>
+  <view class="orp" style="display: flex; flex-direction: column; align-items: center;"bindtap="vieworpData">
+    <image class="img" src="../images/043-shredder.png">mode="aspectFit" bindtap="open"</image>
+    <text wx:if="{{ feeding==0 }}"> 喷雾工作:未开启</text>
+    <text wx:else>喷雾工作:已开启</text>
+  </view>
+</view>
+<view class="space"></view>
+ 
+
+
+<button wx:if="{{isOn}}" type="warn" style="margin-top:5px" bindtap="guan">站岗模式</button>
+<button wx:else type="primary" style="margin-top:5px" bindtap="kai">巡逻模式</button>
+<view class="space"></view>
+<button wx:if="{{feeding}}" type="warn" style="margin-top:5px" bindtap="guanc">关闭喷雾工作</button>
+<button wx:else type="primary" style="margin-top:5px" bindtap="kaic">开启喷雾工作</button>
+<view class="space"></view>
+ 
+
+ 

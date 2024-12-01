@@ -1,0 +1,17 @@
+..\obj\ctiic_1.o: ..\HARDWARE\LCD\ctiic.C
+..\obj\ctiic_1.o: ..\HARDWARE\LCD\ctiic.h
+..\obj\ctiic_1.o: ..\SYSTEM\sys\sys.h
+..\obj\ctiic_1.o: ..\USER\stm32f10x.h
+..\obj\ctiic_1.o: ..\CORE\core_cm3.h
+..\obj\ctiic_1.o: E:\32\k5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ctiic_1.o: ..\USER\system_stm32f10x.h
+..\obj\ctiic_1.o: ..\USER\stm32f10x_conf.h
+..\obj\ctiic_1.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h
+..\obj\ctiic_1.o: ..\USER\stm32f10x.h
+..\obj\ctiic_1.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\ctiic_1.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\ctiic_1.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h
+..\obj\ctiic_1.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h
+..\obj\ctiic_1.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\ctiic_1.o: ..\FWLIB\STM32F10x_FWLib\inc\misc.h
+..\obj\ctiic_1.o: ..\SYSTEM\delay\delay.h

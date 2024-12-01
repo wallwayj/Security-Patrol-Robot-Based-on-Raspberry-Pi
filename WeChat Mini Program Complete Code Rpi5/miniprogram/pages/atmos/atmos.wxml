@@ -1,0 +1,3 @@
+<view class="container">
+  <ec-canvas id="mychart-atmos" canvas-id="mychart-multi-atmos" ec="{{ ec }}"></ec-canvas>
+</view>

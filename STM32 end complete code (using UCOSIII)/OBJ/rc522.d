@@ -1,0 +1,17 @@
+..\obj\rc522.o: ..\HARDWARE\RC522\RC522.c
+..\obj\rc522.o: ..\USER\stm32f10x.h
+..\obj\rc522.o: ..\CORE\core_cm3.h
+..\obj\rc522.o: E:\32\k5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\rc522.o: ..\USER\system_stm32f10x.h
+..\obj\rc522.o: ..\USER\stm32f10x_conf.h
+..\obj\rc522.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h
+..\obj\rc522.o: ..\USER\stm32f10x.h
+..\obj\rc522.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\rc522.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\rc522.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h
+..\obj\rc522.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h
+..\obj\rc522.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\rc522.o: ..\FWLIB\STM32F10x_FWLib\inc\misc.h
+..\obj\rc522.o: ..\HARDWARE\RC522\RC522.H
+..\obj\rc522.o: ..\SYSTEM\FLASH\Flash.h
+..\obj\rc522.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_flash.h

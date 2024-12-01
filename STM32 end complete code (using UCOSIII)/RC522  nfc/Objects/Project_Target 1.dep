@@ -1,0 +1,1132 @@
+Dependencies for Project 'Project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Start\startup_stm32f10x_ld.s)(0x64682AD8)(--cpu Cortex-M3 -g --apcs=interwork -I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_ld.lst --xref -o .\objects\startup_stm32f10x_ld.o --depend .\objects\startup_stm32f10x_ld.d)
+F (.\Start\core_cm3.c)(0x64682AD6)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (.\Start\core_cm3.h)(0x64682AD6)()
+F (.\Start\stm32f10x.h)(0x64682ADC)()
+F (.\Start\system_stm32f10x.c)(0x64682ADA)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (Start\stm32f10x.h)(0x64682ADC)
+I (Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Start\system_stm32f10x.h)(0x64682ADA)()
+F (.\System\Delay.c)(0x64682ADA)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\System\Delay.h)(0x64682ADA)()
+F (.\System\Flash.c)(0x64682ADC)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\System\Flash.h)(0x64682ADC)()
+F (.\System\usart\usart.c)(0x651237C7)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+F (.\Library\misc.c)(0x64682A8A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (Library\misc.h)(0x64682A8C)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\misc.h)(0x64682A8C)()
+F (.\Library\stm32f10x_adc.c)(0x64682A8C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
+I (Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_adc.h)(0x64682A8C)()
+F (.\Library\stm32f10x_bkp.c)(0x64682A8C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_bkp.o --omf_browse .\objects\stm32f10x_bkp.crf --depend .\objects\stm32f10x_bkp.d)
+I (Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_bkp.h)(0x64682A8C)()
+F (.\Library\stm32f10x_can.c)(0x64682A8E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_can.o --omf_browse .\objects\stm32f10x_can.crf --depend .\objects\stm32f10x_can.d)
+I (Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_can.h)(0x64682A8E)()
+F (.\Library\stm32f10x_cec.c)(0x64682A8E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_cec.o --omf_browse .\objects\stm32f10x_cec.crf --depend .\objects\stm32f10x_cec.d)
+I (Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_cec.h)(0x64682A90)()
+F (.\Library\stm32f10x_crc.c)(0x64682A8E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_crc.o --omf_browse .\objects\stm32f10x_crc.crf --depend .\objects\stm32f10x_crc.d)
+I (Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_crc.h)(0x64682A90)()
+F (.\Library\stm32f10x_dac.c)(0x64682A90)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dac.o --omf_browse .\objects\stm32f10x_dac.crf --depend .\objects\stm32f10x_dac.d)
+I (Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_dac.h)(0x64682A90)()
+F (.\Library\stm32f10x_dbgmcu.c)(0x64682A90)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dbgmcu.o --omf_browse .\objects\stm32f10x_dbgmcu.crf --depend .\objects\stm32f10x_dbgmcu.d)
+I (Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)()
+F (.\Library\stm32f10x_dma.c)(0x64682A92)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
+I (Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_dma.h)(0x64682A92)()
+F (.\Library\stm32f10x_exti.c)(0x64682A92)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+I (Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_exti.h)(0x64682A92)()
+F (.\Library\stm32f10x_flash.c)(0x64682A92)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+I (Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_flash.h)(0x64682A94)()
+F (.\Library\stm32f10x_fsmc.c)(0x64682A94)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_fsmc.o --omf_browse .\objects\stm32f10x_fsmc.crf --depend .\objects\stm32f10x_fsmc.d)
+I (Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_fsmc.h)(0x64682A94)()
+F (.\Library\stm32f10x_gpio.c)(0x64682A94)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_gpio.h)(0x64682A94)()
+F (.\Library\stm32f10x_i2c.c)(0x64682A96)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d)
+I (Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_i2c.h)(0x64682A96)()
+F (.\Library\stm32f10x_iwdg.c)(0x64682A96)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_iwdg.o --omf_browse .\objects\stm32f10x_iwdg.crf --depend .\objects\stm32f10x_iwdg.d)
+I (Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_iwdg.h)(0x64682A96)()
+F (.\Library\stm32f10x_pwr.c)(0x64682A96)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_pwr.o --omf_browse .\objects\stm32f10x_pwr.crf --depend .\objects\stm32f10x_pwr.d)
+I (Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_pwr.h)(0x64682A96)()
+F (.\Library\stm32f10x_rcc.c)(0x64682A98)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_rcc.h)(0x64682A98)()
+F (.\Library\stm32f10x_rtc.c)(0x64682A98)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rtc.o --omf_browse .\objects\stm32f10x_rtc.crf --depend .\objects\stm32f10x_rtc.d)
+I (Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_rtc.h)(0x64682A98)()
+F (.\Library\stm32f10x_sdio.c)(0x64682A98)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
+I (Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_sdio.h)(0x64682A98)()
+F (.\Library\stm32f10x_spi.c)(0x64682A98)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+I (Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_spi.h)(0x64682A98)()
+F (.\Library\stm32f10x_tim.c)(0x64682A9A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_tim.h)(0x64682A9A)()
+F (.\Library\stm32f10x_usart.c)(0x64682A9A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_usart.h)(0x64682A9A)()
+F (.\Library\stm32f10x_wwdg.c)(0x64682A9A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_wwdg.o --omf_browse .\objects\stm32f10x_wwdg.crf --depend .\objects\stm32f10x_wwdg.d)
+I (Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Library\stm32f10x_wwdg.h)(0x64682A9C)()
+F (.\Hardware\KEY.c)(0x64682A82)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+I (.\System\Delay.h)(0x64682ADA)
+F (.\Hardware\KEY.h)(0x64682A82)()
+F (.\Hardware\OLED.c)(0x65123609)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+I (Hardware\OLED_Font.h)(0x64682A84)
+F (.\Hardware\OLED.h)(0x64682A84)()
+F (.\Hardware\OLED_Font.h)(0x64682A84)()
+F (.\Hardware\BUZZER.c)(0x64682A82)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\buzzer.o --omf_browse .\objects\buzzer.crf --depend .\objects\buzzer.d)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+I (.\System\Delay.h)(0x64682ADA)
+F (.\Hardware\BUZZER.h)(0x64682A82)()
+F (.\Hardware\Servo.c)(0x64682A8A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\servo.o --omf_browse .\objects\servo.crf --depend .\objects\servo.d)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+I (Hardware\PWM.h)(0x64682A84)
+F (.\Hardware\Servo.h)(0x64682A8A)()
+F (.\Hardware\RC522.c)(0x64682A84)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\rc522.o --omf_browse .\objects\rc522.crf --depend .\objects\rc522.d)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+I (Hardware\RC522.H)(0x651289AD)
+F (.\Hardware\RC522.h)(0x651289AD)()
+F (.\Hardware\PWM.c)(0x64682A84)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\Hardware\PWM.h)(0x64682A84)()
+F (.\Hardware\EXTI\exti.c)(0x6513B397)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\exti.o --omf_browse .\objects\exti.crf --depend .\objects\exti.d)
+I (Hardware\EXTI\exti.h)(0x6513B329)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+I (.\Hardware\LED\led.h)(0x6513B397)
+I (.\Hardware\key.h)(0x64682A82)
+I (.\System\delay.h)(0x64682ADA)
+I (.\System\usart\usart.h)(0x644FB0D1)
+I (E:\32\k5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (.\Hardware\LED\led.c)(0x55102268)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (Hardware\LED\led.h)(0x6513B397)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\User\stm32f10x_conf.h)(0x64682ADC)()
+F (.\User\stm32f10x_it.c)(0x64682ADE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (User\stm32f10x_it.h)(0x64682ADC)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+F (.\User\stm32f10x_it.h)(0x64682ADC)()
+F (.\User\main.c)(0x6512899D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware -I.\System\usart -I.\Hardware\EXTI -I.\Hardware\LED-I "C:\Users\wallwayj\Desktop\400\RC522  nfc\RTE"-I E:\stm32\k5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I E:\32\k5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\Start\stm32f10x.h)(0x64682ADC)
+I (.\Start\core_cm3.h)(0x64682AD6)
+I (E:\32\k5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Start\system_stm32f10x.h)(0x64682ADA)
+I (.\User\stm32f10x_conf.h)(0x64682ADC)
+I (.\Library\stm32f10x_adc.h)(0x64682A8C)
+I (.\Library\stm32f10x_bkp.h)(0x64682A8C)
+I (.\Library\stm32f10x_can.h)(0x64682A8E)
+I (.\Library\stm32f10x_cec.h)(0x64682A90)
+I (.\Library\stm32f10x_crc.h)(0x64682A90)
+I (.\Library\stm32f10x_dac.h)(0x64682A90)
+I (.\Library\stm32f10x_dbgmcu.h)(0x64682A90)
+I (.\Library\stm32f10x_dma.h)(0x64682A92)
+I (.\Library\stm32f10x_exti.h)(0x64682A92)
+I (.\Library\stm32f10x_flash.h)(0x64682A94)
+I (.\Library\stm32f10x_fsmc.h)(0x64682A94)
+I (.\Library\stm32f10x_gpio.h)(0x64682A94)
+I (.\Library\stm32f10x_i2c.h)(0x64682A96)
+I (.\Library\stm32f10x_iwdg.h)(0x64682A96)
+I (.\Library\stm32f10x_pwr.h)(0x64682A96)
+I (.\Library\stm32f10x_rcc.h)(0x64682A98)
+I (.\Library\stm32f10x_rtc.h)(0x64682A98)
+I (.\Library\stm32f10x_sdio.h)(0x64682A98)
+I (.\Library\stm32f10x_spi.h)(0x64682A98)
+I (.\Library\stm32f10x_tim.h)(0x64682A9A)
+I (.\Library\stm32f10x_usart.h)(0x64682A9A)
+I (.\Library\stm32f10x_wwdg.h)(0x64682A9C)
+I (.\Library\misc.h)(0x64682A8C)
+I (.\System\Delay.h)(0x64682ADA)
+I (.\Hardware\OLED.h)(0x64682A84)
+I (.\System\Flash.h)(0x64682ADC)
+I (.\Hardware\KEY.h)(0x64682A82)
+I (.\Hardware\BUZZER.h)(0x64682A82)
+I (.\Hardware\Servo.h)(0x64682A8A)
+I (.\Hardware\RC522.h)(0x651289AD)
+I (.\System\usart\usart.h)(0x644FB0D1)
+I (E:\32\k5\ARM\ARMCC\include\stdio.h)(0x5475F300)

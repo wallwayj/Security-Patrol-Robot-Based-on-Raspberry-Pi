@@ -1,0 +1,3 @@
+<view class="container">
+  <ec-canvas id="mychart-orp" canvas-id="mychart-multi-orp" ec="{{ ec }}"></ec-canvas>
+</view>

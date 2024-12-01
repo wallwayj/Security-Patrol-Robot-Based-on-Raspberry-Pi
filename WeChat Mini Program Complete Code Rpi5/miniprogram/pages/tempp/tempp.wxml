@@ -1,0 +1,3 @@
+<view class="container">
+  <ec-canvas id="mychart-temp" canvas-id="mychart-multi-temp" ec="{{ ec }}"></ec-canvas>
+</view>

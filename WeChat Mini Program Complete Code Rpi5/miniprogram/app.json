@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/rec/rec",
+    "pages/light/index",
+    "pages/humi/humi",
+    "pages/tempp/tempp",
+    "pages/atmos/atmos",
+    "pages/waterhight/waterhight",
+    "pages/watertemp/watertemp",
+    "pages/ph/ph",
+    "pages/tds/tds",
+    "pages/orp/orp"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/pages/images/index1.png",
+        "selectedIconPath": "/pages/images/index2.png"
+      },
+      {
+        "pagePath": "pages/rec/rec",
+        "text": "视频流",
+        "iconPath": "/pages/images/实时视频流解析2.png",
+        "selectedIconPath": "/pages/images/实时视频流解析.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

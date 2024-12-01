@@ -1,0 +1,3 @@
+<view class="container">
+  <ec-canvas id="mychart-watertemp" canvas-id="mychart-multi-watertemp" ec="{{ ec }}"></ec-canvas>
+</view>
